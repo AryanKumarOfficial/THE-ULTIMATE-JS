@@ -16,7 +16,7 @@ variable type           ===> "let"
 
 */
 
-// Rules of declearing literals
+// Rules of declearing identifiers
 
 /*
 1.Can include numbers,alphabet,underscore(_) & dollar sign($).

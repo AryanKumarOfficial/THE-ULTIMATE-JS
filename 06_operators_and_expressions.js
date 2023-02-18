@@ -54,6 +54,15 @@ console.log(x > y && x == 15); //Logical AND
 console.log(x > y || x == 16); //Logical OR
 console.log(!x > y); //Logical NOT
 
+// BITWISE Operator
+
+console.log(x & y);  //AND
+console.log(x | y);//OR
+console.log(x ^ y);  //XOR
+console.log(~y);  //NOT
+console.log(y << 1);  //LS
+console.log(y >> 1);  //RS
+
 // Comments in JS
 /*
 Sometimes we want our program to contain some text which is not executed by JS engine

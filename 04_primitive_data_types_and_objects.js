@@ -14,7 +14,7 @@ let e = undefined;
 let f = true + false;
 let g = BigInt(456);
 console.log(a, b, c, d, e, f, g);
-console.log(typeof d);
+console.log(typeof b);
 
 // OBJECT
 

@@ -3,7 +3,11 @@ var a = 10;
 var b = "javaScript";
 var c = null;
 var d = undefined;
-
+{
+  var b = 123;
+  console.log(b);
+}
+console.log(b );
 // var is global scope variable unlike let and const
 // var can be updated and redecleared whithin its scope
 // let can be updated but can't be redecleared

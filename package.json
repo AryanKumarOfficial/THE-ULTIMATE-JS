@@ -2,6 +2,7 @@
   "dependencies": {
     "alert": "^5.1.4",
     "js-alert": "^2.0.0",
+    "prompt": "^1.3.0",
     "prompt-sync": "^4.2.0"
   }
 }
