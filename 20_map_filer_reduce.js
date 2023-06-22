@@ -29,6 +29,11 @@ let a = arr.filter((value) => {
     return value < 50
 })
 */
+
+// reduce array method
+
+// It reduces an array to the value instead of new array it adds first two value and then adds results to the third one and so on.
+
 arr = [5, 6, 77, 9, 99, 11]
 
 const a = arr.reduce((a, b) => {
