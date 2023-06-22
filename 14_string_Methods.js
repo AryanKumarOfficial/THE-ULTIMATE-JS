@@ -42,7 +42,7 @@
 // }
 // console.log(result)
 
-let Name = "aryan"
+let Name = "new.png"
 
 // console.log(Name.indexOf("ar"))
 
@@ -52,5 +52,58 @@ let Name = "aryan"
 // console.log(Name.lastIndexOf("a"))
 
 // returns the index of last occurrence of character in the string
+
+// console.log(Name.charAt(2))
+
+// returns the string at specific index in the string
+
+
+// console.log(Name.substring(1, 4))
+
+
+// returns the group of string i.e. substring from starting index to ending index from a given string excluding the ending index
+
+
+// console.log(Name.slice(0, -2))
+
+
+//  .slice is similar to substring except it accepts negative values
+
+
+// console.log(Name.split("."))
+
+// gives an array of strings after separating the whole string by a seperator parameter
+
+
+// console.log(Name.startsWith("n"))
+
+
+// .startsWith() checks whether given string starts with or not by given parameters
+
+
+// console.log(Name.endsWith("g"))
+
+
+// .endsWith() checks whether given string ends with or not by given parameters
+
+// console.log(Name.includes("."))
+
+//tells weather given parameter is present in the string or not returns boolean
+
+// console.log(Name.repeat(4))
+
+// repeat() repeats the given string as many times the parameter is given
+
+
+// console.log(Name.match("n"))
+
+
+// gives the information about the first match in an array
+
+
+// console.log(Name.search("n"))
+
+// it is similar to indexOf, but it can take regular expressions as argument
+
 
 
