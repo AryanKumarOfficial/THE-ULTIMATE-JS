@@ -37,13 +37,26 @@ let obj = {
     aryan: 45, rohan: 46, sahil: 41, sohan: 39, sumit: 32,
 };
 
+let data = [
+    {
+        name: "Aryan",
+        age: 19
+    }, {
+        name: "Kush",
+        age: 22
+    }, {
+        name: "Janitor",
+        age: 15
+    },
+]
+
 for (let a in obj) {
     console.log("marks of ", a, " is ", obj[a]);
 }
-for (let b of "Aryan") {
-    console.log(b)
-}
+// for (let b of {"A":1,"B":2,"C":3}) {
+//     console.log(b)
+// }
 // For of loop only strings and arrays
-for (let b of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) {
-    console.log(b);
+for (let b of data) {
+    console.log("I am data b", b);
 }

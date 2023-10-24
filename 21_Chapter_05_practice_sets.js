@@ -3,13 +3,13 @@
 // Q.01 Create an array of numbers and take inputs from the user to add numbers to the array
 
 // Ans.==>
-/*
-let arr = [2, 3, 4, 5, 6, 7, 8, 99]
+
+/*let arr = [2, 3, 4, 5, 6, 7, 8, 99]
 
 
 
 while(1){
-	
+
 let data =  prompt("Enter the number you want to add in the array")
 data = Number.parseInt(data)
 arr.push(data)
@@ -56,9 +56,9 @@ const n = arr.map((item) => {
 // Q.05 Use reduce to calculate the factorial of a given number from an array of first n natural numbers(n being the number whoose factorial needs to be calculated)
 
 // Sol==>
-let arr = [2, 3, 4, 5, 6, 7, 8, 9]
-let n = arr.reduce((a, b) => {
-    return a * b
-})
+// let arr = [2, 3, 4, 5, 6, 7, 8, 9]
+// let n = arr.reduce((a, b) => {
+//     return a * b
+// })
 
-console.log(n)
+// console.log(n)
