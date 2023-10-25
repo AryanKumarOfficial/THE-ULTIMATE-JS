@@ -1,0 +1,1 @@
+console.log("Hello from 24_Script_tag.js");
