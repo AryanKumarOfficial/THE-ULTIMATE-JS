@@ -20,26 +20,26 @@ const result = (userChoice, computerChoice) => {
     }
     else if (userChoice === "snake") {
         if (computerChoice === "water") {
-            return "snake wins";
+            return "You won :)";
         }
         else {
-            return "gun wins";
+            return "you lost :(";
         }
     }
     else if (userChoice === "water") {
         if (computerChoice === "snake") {
-            return "snake wins";
+            return "you lost :(";
         }
         else {
-            return "water wins";
+            return "you won :)";
         }
     }
     else if (userChoice === "gun") {
         if (computerChoice === "snake") {
-            return "gun wins";
+            return "you won :)";
         }
         else {
-            return "water wins";
+            return "you lost :(";
         }
     }
     else {
