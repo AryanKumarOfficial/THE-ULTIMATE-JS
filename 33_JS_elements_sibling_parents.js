@@ -4,6 +4,9 @@ console.log('hello');
  * can find next sibling using nextSibling or nextElementSibling
  * can find prev sibling using previousSibling or previousElementSibling
  * can find parend node using ParentNode or parentNode
+ * firstChild return the first child of itself, it can be a comment , text or a element or even whitespaces.
+ * But firstChildElement returns only elements if any.
+ * same as parentnode and parentnodeelement
  */
 
 const e = document.querySelector('#target');
