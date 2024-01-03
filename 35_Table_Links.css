@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body main h1 {
+    margin: 16px 0px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+
+body main section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+body main section table {
+    width: 100%;
+}
+
+body main section table caption {
+    font-size: larger;
+}
+
+body main section table thead tr {
+    background-color: bisque;
+}
+
+body main section table tbody tr:nth-child(2n+1) {
+    background-color: rgb(218, 214, 214);
+}
+
+body main section table tbody tr td {
+    padding: 10px;
+}

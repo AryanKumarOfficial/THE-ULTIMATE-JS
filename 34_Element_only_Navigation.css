@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    background: rgba(128, 128, 128, 0.411) !important;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px 6px rgb(128, 128, 128);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}

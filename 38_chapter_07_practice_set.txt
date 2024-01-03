@@ -1,0 +1,14 @@
+chapeter 07 Questions
+
+Q1: Create a navbar and change its first element to red.
+
+Q2: Create a table without tbody. Now use view source button check weather it has tbody or not.
+
+Q3: create a div with three children and change the color of first and last child to green.
+
+Q4: Write a javascript code to change the background of all <li> tags to cyan.
+
+Q5: Which of the following is used to look for the farthest ancestor that matches given selector?
+
+(a) matches() (b) closest() (c) contains() (d) None of the above
+Ans : (d) None of the above

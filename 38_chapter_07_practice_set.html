@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 07 Practice set</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        min-height: 8vh;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        width: 30%;
+      }
+      li a {
+        text-decoration: none;
+        color: white;
+      }
+      li a:hover {
+        color: rgb(255, 255, 0);
+      }
+      h1 {
+        text-align: center;
+        margin: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Q1 && Q4 -->
+    <nav id="nav">
+      <ul>
+        <li><a href="./38_chapter_07_practice_set.html">Home</a></li>
+        <li><a href="./38_chapter_07_practice_set.html">Blog</a></li>
+        <li><a href="./38_chapter_07_practice_set.html">About</a></li>
+        <li><a href="./38_chapter_07_practice_set.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Chapter 07 Practice set</h1>
+
+    <!-- Q2 -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Harry</td>
+        <td>Delhi</td>
+        <td>20000</td>
+      </tr>
+      <tr>
+        <td>Rohan</td>
+        <td>Bangalore</td>
+        <td>30000</td>
+      </tr>
+      <tr>
+        <td>Shubham</td>
+        <td>Bhopal</td>
+        <td>15000</td>
+      </tr>
+    </table>
+    <!-- it doesn't have tbody tag on view source but inspect has it view source the code we written and the inspect shows the code rendered -->
+
+    <!-- Q3 -->
+    <div class="parent" style="background: black; color: white">
+      <span>1</span><span>2</span><span>3</span>
+    </div>
+
+    <script src="./38_chapter_07_practice_set.js"></script>
+  </body>
+</html>
