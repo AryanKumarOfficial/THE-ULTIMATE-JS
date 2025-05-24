@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  padding: 2rem;
+  color: #222;
+}
+
+.red {
+  background-color: red;
+  color: #fff;
+}
+
+.blue {
+  background-color: blue;
+  color: #fff;
+}
+
+.green {
+  background-color: green;
+  color: #fff;
+}
+
+.yellow {
+  background-color: yellow;
+  color: #000;
+}
+
+.orange {
+  background-color: orange;
+  color: #000;
+}
+
+.dark-text {
+  color: #000;
+}
